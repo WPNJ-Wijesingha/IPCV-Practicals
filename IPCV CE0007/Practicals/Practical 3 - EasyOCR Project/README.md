@@ -51,7 +51,7 @@ import the data visualization library matplotlib as plt
 -    display_image_with_results(cv2.imread(image_path), recognized_text)
 
 
--image_path = 'C:\\Users\\Hasitha\\Desktop\\kanikaSir\\easyocrproject\\numberplate.jpg'
+-image_path = 'C:\\Users\\nj\\Desktop\\easyocrproject\\numberplate.jpg'
 -number_plate_recognition(image_path)
 ```
 ![image](images/1.png)
