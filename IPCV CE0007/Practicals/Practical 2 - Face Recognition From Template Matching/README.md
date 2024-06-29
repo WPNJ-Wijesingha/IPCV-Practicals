@@ -16,7 +16,7 @@ This code line is the specific code for jupyter notebook or other python environ
 Import to the code base image submodule by matplotlib. This is used to read and manipulate the image files (PNG, JPG, JPEG) 
 - import matplotlib.image as mpimg
 This use to read the image which mentioned the specific directory
-- img = mpimg.imread('C:\\Users\\Hasitha\\Desktop\\kanikaSir\\IM\\Shah-Rukh-Khan-to-pair-up-for-the-first-time-with-daughter-Suhana-620.jpg')
+- img = mpimg.imread('C:\\Users\\nj\\Desktop\\IM\\Shah-Rukh-Khan.jpg')
 
 In this mention the image plot command using the imshow() function and then using show() command display the image which I mentioned in the previous command.
 - imgplot = plt.imshow(img)
@@ -83,8 +83,8 @@ In here display the main image with mentioning the bounding box view.
 -     plt.show()
 
 Specify the paths to the main image and the target image
-- main_image_path = "C:\\Users\\Hasitha\\Desktop\\kanikaSir\\IM\\Shah-Rukh-Khan-to-pair-up-for-the-first-time-with-daughter-Suhana-620.jpg"
-- target_image_path = "C:\\Users\\Hasitha\\Desktop\\kanikaSir\\IM\\download.jpg"
+- main_image_path = "C:\\Users\\nj\\Desktop\\IM\\Shah-Rukh-Khan.jpg"
+- target_image_path = "C:\\Users\\nj\\Desktop\\IM\\download.jpg"
 
 Call the function for face comparison and marking
 - compare_and_mark_faces(main_image_path, target_image_path)
