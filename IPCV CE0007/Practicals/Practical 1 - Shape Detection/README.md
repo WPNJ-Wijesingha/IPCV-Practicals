@@ -17,7 +17,7 @@ This is used to check the opencv version, I checked this because there are some 
 -print(cv2.__version__)
 
 This use to open the image
--img = cv2.imread('C:\\Users\\Hasitha\\Desktop\\kanikaSir\\IM\\preset-shapes.jpg')
+-img = cv2.imread('C:\\Users\\nj\\Desktop\\IM\\preset-shapes.jpg')
 -plt.imshow(img)
 ```
  ![Image One](images/one.png)
@@ -105,7 +105,7 @@ Find Triangles with Draw the Bounding Boxes
 
 
  Given the Image to the find_triangles() functions.
--find_triangles('C:\\Users\\Hasitha\\Desktop\\kanikaSir\\IM\\preset-shapes.jpg')
+-find_triangles('C:\\Users\\nj\\Desktop\\IM\\preset-shapes.jpg')
 ```
 ![Image six](images/six.png)
 
@@ -162,7 +162,7 @@ Find Triangles with Draw the Bounding Boxes
 -    cv2.destroyAllWindows()
 
  Giving the original image path
--find_squares('C:\\Users\\Hasitha\\Desktop\\kanikaSir\\IM\\preset-shapes.jpg')
+-find_squares('C:\\Users\\nj\\Desktop\\IM\\preset-shapes.jpg')
 ```
 ![Image seven](images/seven.png)
 
@@ -206,6 +206,6 @@ Find Triangles with Draw the Bounding Boxes
 -    cv2.destroyAllWindows()
 
  Giving the original image path
--find_circle('C:\\Users\\Hasitha\\Desktop\\kanikaSir\\IM\\preset-shapes.jpg')
+-find_circle('C:\\Users\\nj\\Desktop\\IM\\preset-shapes.jpg')
 ```
 ![Image eight](images/eight.png)
